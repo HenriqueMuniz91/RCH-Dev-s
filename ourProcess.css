@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "futura";
+    src: url(./fonts/futura_bk_bt_book.ttf);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+*{
+    font-family: 'futura';
+    margin: 0;
+}
+
+#main-box{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/Theater.jpg");
+    height: 45vh;
+}
+
+#lviv{
+    text-align: initial;
+    color: white;
+}
