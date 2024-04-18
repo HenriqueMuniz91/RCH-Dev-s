@@ -111,7 +111,7 @@
     background-color: red;
     grid-area: process_one;
     align-content: flex-start;
-    align-items: baseline;
+    display: inline-flex;
     
 }
 
