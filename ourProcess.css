@@ -99,20 +99,20 @@
 #principal{
     padding: 100px;
     margin-left: 1rem;
-    display: grid;
-    grid-template: "topicOne"
-                    "topicTwo"
-                    "topicThree"
-                    "topicFour";
+    display: flex;
+    flex-direction: column;
+}
+.gray{
+    background-color: #E5E5E5;
 }
 
-#process_one{
+.process_one{
     margin-top: auto;
-    background-color: red;
     grid-area: process_one;
     align-content: flex-start;
-    display: inline-flex;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
 }
 
 #process_two{
@@ -120,6 +120,7 @@
     background-color: blue;
     grid-area: process_two;
     align-content: flex-start;
+    display: inline-flex;
 }
 
 .card3{
