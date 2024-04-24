@@ -126,6 +126,13 @@
     flex-direction: row-reverse;
 }
 
+#process_hiperlink{
+    font-size: 10px;
+    color: #105359;
+    text-align: right;
+    white-space: nowrap;
+}
+
 #process_two{
     margin-top: auto;
     background-color: blue;
