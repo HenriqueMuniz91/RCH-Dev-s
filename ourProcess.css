@@ -96,36 +96,40 @@
     padding-right: 10px;
 }
 
-#principal{
-    padding: 100px;
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: column;
-}
 .gray{
-    background-color: #E5E5E5;
+    background-color: #fff8fb;
 }
 
 .process_one{
     max-width: 100%;
-    margin-top: auto;
-    grid-area: process_one;
+    height: 460px;
     align-content: flex-start;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 15px;
 }
 
 #number{
     color: #D9285E;
-    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 60px;
-    font-style: unset;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
 }
 
 .text{
-    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
     max-width: 400px;
     text-align: justify;
 }
@@ -140,73 +144,10 @@
 }
 
 #process_hiperlink{
+    cursor: pointer;
     font-size: 10px;
     color: #105359;
-    text-align: right;
-    white-space: nowrap;
-}
-
-#process_two{
-    margin-top: auto;
-    background-color: blue;
-    grid-area: process_two;
-    align-content: flex-start;
-    display: inline-flex;
-}
-
-.card3{
-    grid-area: card3;
-    margin-top: 8rem;
-    text-align: center;
-}
-
-.card4{
-    grid-area: card4;
-    margin-top:8rem ;
-    text-align: center;
-}
-
-.card5{
-    grid-area: card5;
-    margin-top: 4rem;
-    text-align: center;
-}
-
-.card6{
-    grid-area: card6;
-    text-align: center;
-}
-
-.card7{
-    grid-area: card7;
-    margin-top: 9rem;
-    text-align: center;
-}
-
-.card8{
-    grid-area: card8;
-    margin-top: 4rem;
-    text-align: center;
-}
-
-.card9{
-    grid-area: card9;
-    text-align: center;
-}
-
-#card_image{
-    width: 400px;
-    height: 370px;
-}
-
-#card_title{
-    padding-top: 1.5rem;
-    letter-spacing: 0.1rem;
-}
-
-#card_p{
-    padding-top: 1rem;
-    letter-spacing: .2rem;
+    text-align: left;
 }
 
 #s{
@@ -276,7 +217,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100rem;
+    width: 100%;
     height: 540px;
 }
 
