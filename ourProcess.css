@@ -150,6 +150,34 @@
     text-align: left;
 }
 
+.startNow{
+    height: 450px;
+    background-image: url("./img/StartNow01");
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#startNowText{
+    color: #FFFF;
+    font-size: 50px;
+    max-width: 600px;
+    font-weight: bold;
+}
+
+#startNowButton{
+    color: #FFFF;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #e32682;
+    width: 130px;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+}
+
 #s{
     height: 27rem;
     position: absolute;
