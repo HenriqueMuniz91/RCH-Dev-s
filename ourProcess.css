@@ -29,11 +29,12 @@
     display: flex;
     align-items: flex-start;
     padding-top: 30px;
-    width: 100%;
+    max-width: 100%;
 }
 
 #cabecalho{
     display: flex;
+    justify-content: space-around;
 }
 
 #cabecalho li{
@@ -67,12 +68,11 @@
 .buttons{
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 #magnifing_glass{
     margin-top: -3px;
-    margin-left: 120px;
+    margin-left: 210px;
 }
 
 #get{
