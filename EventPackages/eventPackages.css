@@ -126,6 +126,12 @@ nav {
   margin: 3rem 4rem;
 }
 
+#cardSubtitle{
+  margin-top: 0px;
+  font-size: 12px;
+  color: #A7A7A7;
+}
+
 .card {
   border: 1px solid black;
   display: flex;
