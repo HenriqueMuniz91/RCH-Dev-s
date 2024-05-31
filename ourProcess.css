@@ -22,8 +22,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./img/OurProcessTop.png");
-    height: 50vh;
+    background-image: url("./img/Top-img.png");
+    background-size: 100%;
+    height: 70vh;
+    max-width: 100%;
 }
 #box{
     display: flex;
