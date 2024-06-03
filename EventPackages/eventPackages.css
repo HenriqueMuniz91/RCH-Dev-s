@@ -127,6 +127,7 @@ nav {
 }
 
 #cardPrice{
+  color: #e32682;
   font-size: 40px;
 }
 
@@ -138,6 +139,11 @@ nav {
 
 #cardList{
   color: #A7A7A7;
+}
+
+#cardButton{
+  color: white;
+  background-color: #222;
 }
 
 .card {
