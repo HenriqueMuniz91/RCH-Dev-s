@@ -122,6 +122,10 @@
     width: 400px;
 }
 
+#image img{
+    width: 400px;
+}
+
 .text{
     display: flex;
     flex-direction: column;
