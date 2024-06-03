@@ -189,6 +189,28 @@ nav {
   gap: 2.5rem;
 }
 
+.item-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.item-grid img {
+  margin-top: 10px;
+  height: 20px;
+  color: #e32682;
+}
+
+.TextPack {
+  margin-left: 25px;
+}
+
+.TextPack p {
+  margin-top: 5px;
+  color: #9b9b9b;
+}
+
 .container-questions {
   display: flex;
   align-items: center;
