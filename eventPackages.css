@@ -22,10 +22,6 @@ font-variation-settings:
   background-color: blue;
 }
 
-body {
-  height: 100%;
-}
-
 p,
 h1,
 h2,
@@ -127,7 +123,7 @@ nav {
 }
 
 #cardPrice{
-  color: #e32682;
+  color: #E27613;
   font-size: 40px;
 }
 
@@ -143,7 +139,7 @@ nav {
 
 #cardButton{
   color: white;
-  background-color: #222;
+  background-color: #D9285E;
 }
 
 .card {
@@ -238,10 +234,53 @@ nav {
   display: flex;
 }
 
+.customers {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.userCard {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  max-width: 1000px;
+  font-size: 15px;
+  text-align: justify;
+  gap: 50px;
+}
+
+.user{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#star {
+  width: 15px;
+}
+
+.userAvatar {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  gap: 10px;
+}
+
+#photo {
+  border: 1px solid #222;
+  border-radius: 50%;
+  width: 50px;
+}
+
 .contactSupport{
   height: 450px;
-  width: 1515px;
-  background-image: url("./images/StartNow01");
+  width: 1519px;
+  background-image: url("./img/StartNow01");
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -266,4 +305,113 @@ nav {
   height: 40px;
   border: none;
   margin-top: 40px;
+}
+
+#fot{
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer_p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1519px;
+  height: 540px;
+}
+
+#social{
+  color: white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+}
+
+#extra{
+  color: rgb(161, 160, 160);
+}
+
+#subs{
+  color: rgb(161, 160, 160);
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 20px;
+  padding-bottom: 1rem;
+}
+
+#contacty{
+  color: rgb(161, 160, 160);
+  font-size: 1rem;
+  padding-left: 5rem;
+  padding-top: 1.6rem;
+}
+
+#contacty h2{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+#redes_sociais{
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 5rem;
+}
+
+#redes_sociais img{
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 20%;
+  
+}
+
+#tit2{
+  padding-bottom: 3rem;
+}
+
+#in{
+  padding-right: 5rem;
+  height: 2rem;
+  background-color: rgb(161, 160, 160);
+  opacity: 30%;
+  border: 0;
+
+}
+
+#tit{
+  font-size: 1rem;
+  padding-bottom: 0.2rem;
+  color: white;
+}
+
+#btn{
+  width: 9rem;
+  height: 3rem;
+  background-color: #FF007F;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  border: 0;
+}
+
+#extra{
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+#sub_extra{
+  font-size: 15px;
+  padding-top: 10px;
+  color: rgb(161, 160, 160);
 }
