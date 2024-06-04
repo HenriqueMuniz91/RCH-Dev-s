@@ -32,7 +32,7 @@ h2,
 span,
 h3,
 a {
-  font-family: sans-serif;
+  font-family: 'futura';
 }
 
 a {
@@ -236,4 +236,34 @@ nav {
 
 .container-quest p {
   display: flex;
+}
+
+.contactSupport{
+  height: 450px;
+  width: 1515px;
+  background-image: url("./images/StartNow01");
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#contactSupportText{
+  color: #FFFF;
+  font-size: 50px;
+  max-width: 600px;
+  font-weight: bold;
+}
+
+#contactSupportButton{
+  font-family: 'futura';
+  color: #FFFF;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #e32682;
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin-top: 40px;
 }
