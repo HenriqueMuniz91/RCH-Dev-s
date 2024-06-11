@@ -124,6 +124,18 @@
     width: 70px;
 }
 
+#news_date{
+    background-color: #105359;
+    cursor: pointer;
+    font-size: 15px;
+    color: #FFFF;
+    align-self: flex-start;
+    margin-left: 5%;
+    height: 25px;
+    width: auto;
+    margin-top: -5%;
+}
+
 #news_title{
     color: #062528;
     display: flex;
