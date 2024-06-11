@@ -100,7 +100,7 @@
 .news{
     margin-top: 20px;
     margin-left: 20%;
-    background-color: #F8E8DA;
+    background-color: #ffff;
     max-width: 60%;
     height: 750px;
     align-content: flex-start;
@@ -114,7 +114,7 @@
 }
 
 #news_button{
-    background-color: #105359;
+    background-color: #e32682;
     cursor: pointer;
     font-size: 15px;
     color: #FFFF;
@@ -125,7 +125,7 @@
 }
 
 #news_date{
-    background-color: #105359;
+    background-color: #e32682;
     cursor: pointer;
     font-size: 15px;
     color: #FFFF;
