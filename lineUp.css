@@ -97,32 +97,10 @@
     background-color: #fff8fb;
 }
 
-.conferenceSchedule{
-    text-align: center;
-}
-
-.tabs{
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    cursor: pointer;
-}
-
-#tableDay1{
-margin-top: 25px;
-margin-bottom: 25px;
-}
-
-#tableDay1_title{
-    height: 50px;
-}
-
-.news{
+.card_lineUp{
     margin-left: 20%;
     background-color: #ffff;
-    max-width: 60%;
+    max-width: 70%;
     height: auto;
     align-content: flex-start;
     display: flex;
@@ -134,7 +112,43 @@ margin-bottom: 25px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5) ;
 }
 
+.conferenceSchedule{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tabs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    cursor: pointer;
+    background-color: #e32682;
+    color: #FFFF;
+}
+
+#tableDay1_title{
+    height: 50px;
+    font-size: 25px;
+}
+
+#tableDay1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.day1{
+    width: 100%;
+}
+
+
 #download_button{
+    margin-top: 15px;
+    margin-bottom: 30px;
     background-color: #e32682;
     cursor: pointer;
     font-size: 15px;
