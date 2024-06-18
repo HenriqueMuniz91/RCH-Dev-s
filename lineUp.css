@@ -145,6 +145,9 @@
     width: 100%;
 }
 
+.tdBlue{
+    background-color: #fff8fb;
+}
 
 #download_button{
     margin-top: 15px;
