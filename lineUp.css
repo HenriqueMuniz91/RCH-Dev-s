@@ -98,14 +98,17 @@
 }
 
 .conferenceSchedule{
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 65px;
     text-align: center;
 }
 
 .tabs{
+    height: 75px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: space-evenly;
     text-align: center;
     cursor: pointer;
