@@ -18,7 +18,7 @@
     margin: 0;
 }
 
-#box_principal{
+#mainBox{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,22 +28,47 @@
     max-width: 100%;
 }
 #box{
+    width: 100%;
+    flex-direction: flex;
+    justify-content: space-between;
     display: flex;
-    align-items: flex-start;
     padding-top: 30px;
-    max-width: 100%;
 }
 
-#cabecalho{
+#headerLinks{
     display: flex;
-    justify-content: space-around;
 }
 
-#cabecalho li{
-    padding-left: 50px;
+#headerLinks a{
+    padding-left: 60px;
     list-style: none;
+    color: white;    
+}
+
+#lviv{
     color: white;
-    
+}
+
+.buttons{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#get{
+    margin-left: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: #e32682;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #FFFF;
 }
 
 #box_title{
@@ -61,36 +86,6 @@
 #descricao{
     color: white;
     padding-top: 30px;
-}
-
-#lviv{
-    color: white;
-}
-
-.buttons{
-    display: flex;
-    flex-direction: row;
-}
-
-#magnifing_glass{
-    margin-top: -3px;
-    margin-left: 210px;
-}
-
-#get{
-    margin-top: -10px;
-    margin-left: 20px;
-    width: 130px;
-    height: 35px;
-    background-color: #e32682;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 10px;
-    letter-spacing: 2px;
-    color: #FFFF;
 }
 
 .gray{
