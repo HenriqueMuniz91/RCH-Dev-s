@@ -136,7 +136,7 @@
 #tableDay1{
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -146,6 +146,7 @@
 }
 
 .tdBlue{
+    height: 50px;
     background-color: #fff8fb;
 }
 
