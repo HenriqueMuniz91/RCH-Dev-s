@@ -88,6 +88,29 @@
     padding-top: 30px;
 }
 
+.aboutRio{
+    background-image: url("./img/image111.png");
+    background-size: 100%;
+    max-width: 100%;
+    height: 300px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#aboutRioImage img{
+    max-width: 400px;
+}
+
+.aboutRioText h1{
+    font-size: 20px;
+}
+
+.aboutRioText h2{
+    font-size: 15px;
+}
+
 .gray{
     background-color: #fff8fb;
 }
@@ -141,21 +164,6 @@
 #feedbackText{
     font-size: 15px;
     color: #062528;
-}
-
-.aboutRio{
-    background-color: #F8E8DA;
-    max-width: 100%;
-    height: 460px;
-    align-content: flex-start;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 15px;
-}
-
-#aboutRioImage img{
-    max-width: 400px;
 }
 
 .startNow{
