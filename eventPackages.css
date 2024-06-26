@@ -12,14 +12,9 @@ font-variation-settings:
 'opsz' 24
 }
 
-
 *{
   font-family: 'futura';
   margin: 0;
-}
-
-.box {
-  background-color: blue;
 }
 
 p,
@@ -31,15 +26,10 @@ a {
   font-family: 'futura';
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-a:hover {
+/* a:hover {
   color: var(#c7537a);
-  transition: 1s;
-}
+  transition: 10s;
+} */
 
 #mainBox{
   display: flex;
@@ -94,16 +84,8 @@ a:hover {
   color: #FFFF;
 }
 
-.links {
-  display: flex;
-  margin-left: 300px ;
-  flex-direction: row;
-  gap: 2rem;
-  text-align: center;
-}
-
 .title {
-  padding-top: 10px;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -119,27 +101,6 @@ a:hover {
 .buttons{
   display: flex;
   flex-direction: row;
-}
-
-#magnifing_glass{
-  margin-top: -3px;
-  margin-left: 210px;
-}
-
-#get{
-  margin-top: -10px;
-  margin-left: 20px;
-  width: 130px;
-  height: 35px;
-  background-color: #e32682;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 10px;
-  letter-spacing: 2px;
-  color: #FFFF;
 }
 
 .container {
