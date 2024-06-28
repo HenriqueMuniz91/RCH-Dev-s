@@ -94,8 +94,7 @@
 }
 
 .aboutRio{
-    background-color: #e83371;
-    background-image: url("./img/image111.png");
+    background-color: #e6316d;
     background-size: 100%;
     max-width: 100%;
     height: 400px;
@@ -140,7 +139,7 @@
 }
 
 .feedback{
-    background-image: url("./img/image111.png");
+    background-color: #D9285E;
     background-size: 100%;
     max-width: 100%;
     height: 700px;
