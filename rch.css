@@ -281,6 +281,10 @@
     color: #062528;
 }
 
+.photos img{
+    height: 318px;
+}
+
 .speakers a{
     margin-top: 40px;
     font-size: 30px;
