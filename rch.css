@@ -101,16 +101,88 @@
 }
 
 .imgLinks{
+    width: 100%;
+    margin-right: 5%;
     display: flex;
     justify-content: end;
-    margin-top: 20%;
+    margin-top: 12%;
     height: 30px;
 }
 
 .imgLinks img{
-    margin-top: 20%;
     margin-left: 10px;
     height: 30px;
+}
+
+.nextEvent{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+#nextEventText{
+    color: #105359;
+    margin-left: 10%;
+    text-align: left;
+}
+
+#nextEventText h1{
+    font-weight: bold;
+}
+
+.clockBackground{
+    background-color: #45893B;
+    height: 150px;
+    width: 700px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#nextEventClock{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.clockValue{
+    color: #F8E8DA;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.clockText{
+    color: #F8E8DA;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.register{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.registerButton{
+    margin-right: 400px;
+    height: 70px;
+    width: 250px;
+    background-color: #45893B;
+    border: 0;
+    border-radius: 10px;
+    color: #F8E8DA;
+    font-size: 25px;
+    font-weight: bold;    
 }
 
 .aboutRio{
