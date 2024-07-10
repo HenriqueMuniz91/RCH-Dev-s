@@ -125,6 +125,38 @@ a {
   margin: 3rem 4rem;
 }
 
+.cards img{
+  height: 400px;
+}
+
+.collab{
+  width: 130px;
+  height: 40px;
+  background-color: #e32682;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #FFFF;
+}
+
+.collab a{
+  width: 130px;
+  height: 40px;
+  background-color: #e32682;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #FFFF;
+}
+
 #cardPrice{
   color: #E27613;
   font-size: 40px;
