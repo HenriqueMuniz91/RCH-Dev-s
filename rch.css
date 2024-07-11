@@ -455,6 +455,17 @@
     font-weight: lighter;
 }
 
+.lineUpButton{
+    color: #fff8fb;
+    margin-top: 30px;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #D9285E;
+}
+
 .startNow{
     height: 450px;
     background-image: url("./img/StartNow01");
@@ -510,111 +521,45 @@
     margin: 10px;
 }
 
-#fot{
-    background-color: rgb(19, 18, 18);
+.footer{
+    height: 800px;
+    background-image: url("./img/wallpaperFooter.png");
+    background-size: 1550px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
 }
 
-.footer_p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 540px;
+.footer h1{
+    font-size: 150px;
+    color: #F8E8DA;
+    margin-top: 320px;
+    margin-left: 130px;
+    width: auto;
 }
 
-#social{
+.social{
+    margin-top: 30px;
+    margin-left: 900px;
     color: white;
+    height: 200px;
     width: 300px;
     display: flex;
-    flex-direction: column;
-    padding-right: 70px;
+    justify-content: flex-end;
 }
 
-#extra{
-    color: rgb(161, 160, 160);
-}
-
-#subs{
-    color: rgb(161, 160, 160);
-    padding-left: 5rem;
+#socialImage img{
+    height: 30px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    align-items: self-start;
-    gap: 20px;
-    padding-bottom: 1rem;
+    justify-content: space-evenly;
+    align-self: center;
 }
 
-#contacty{
-    color: rgb(161, 160, 160);
-    font-size: 1rem;
-    padding-left: 5rem;
-    padding-top: 1.6rem;
-}
-
-#contacty h2{
-    font-size: 1rem;
-    padding-bottom: 1rem;
-}
-
-#redes_sociais{
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 5rem;
-}
-
-#redes_sociais img{
-    padding-top: 1rem;
-    padding-right: 0.5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    opacity: 20%;
-    
-}
-
-#tit2{
-    padding-bottom: 3rem;
-}
-
-#in{
-    padding-right: 5rem;
-    height: 2rem;
-    background-color: rgb(161, 160, 160);
-    opacity: 30%;
-    border: 0;
-
-}
-
-#tit{
-    font-size: 1rem;
-    padding-bottom: 0.2rem;
+#socialText{
+    height: 150px;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 25px;
     color: white;
-}
-
-#btn{
-    width: 9rem;
-    height: 3rem;
-    background-color: #FF007F;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    font-size: 0.7rem;
-    border: 0;
-}
-
-#extra{
-    padding-bottom: 1rem;
-    font-size: 1rem;
-    color: white;
-}
-
-#sub_extra{
-    font-size: 15px;
-    padding-top: 10px;
-    color: rgb(161, 160, 160);
 }
