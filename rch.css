@@ -478,6 +478,12 @@
     background-color: #D9285E;
 }
 
+.lineUpButton a{
+    color: #fff8fb;
+    font-size: large;
+    font-weight: bold;
+}
+
 .startNow{
     height: 450px;
     background-image: url("./img/StartNow01");
