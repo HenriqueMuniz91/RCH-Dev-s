@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .tabs {
+            display: flex;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            background: #f2f2f2;
+            border: 1px solid #ddd;
+            border-bottom: none;
+        }
+        .tab.active {
+            background: #ff0055;
+            color: white;
+        }
+        .tab-content {
+            display: none;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tabs">
+        <div class="tab active" data-tab="day1">Day 1<br>DEC 20, 2022</div>
+        <div class="tab" data-tab="day2">Day 2<br>DEC 21, 2022</div>
+        <div class="tab" data-tab="day3">Day 3<br>DEC 22, 2022</div>
+        <div class="tab" data-tab="day4">Day 4<br>DEC 23, 2022</div>
+        <div class="tab" data-tab="day5">Day 5<br>DEC 24, 2022</div>
+    </div>
+
+    <div id="day1" class="tab-content active">
+        <table>
+            <caption>Sunday, 20 December 2022</caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Session</th>
+                    <th>Speaker(s)</th>
+                    <th>Time</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Gathering & Signing up</td>
+                    <td>Jeff Robins, Jonh Doe</td>
+                    <td>07:00am - 08:00am</td>
+                    <td>Room A1</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Evolution of User Experience</td>
+                    <td>Jeff Robins, Jonh Doe</td>
+                    <td>08:00am - 09:00am</td>
+                    <td>Room A2</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Building Gov as a Service</td>
+                    <td>Piera McClure</td>
+                    <td>09:30am - 10:00am</td>
+                    <td>Room A1</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>VR is the new internet of experiences</td>
+                    <td>Jeff Robins, Jonh Doe</td>
+                    <td>10:30am - 11:15am</td>
+                    <td>Room B1</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>From SMS to IPO</td>
+                    <td>Jeff Robins, Jonh Doe</td>
+                    <td>11:30am - 12:00am</td>
+                    <td>Room A1</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Lunch Time</td>
+                    <td>Jefe</td>
+                    <td>12:00am - 01:00pm</td>
+                    <td>Room S2</td>
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>Responsive Web Applications</td>
+                    <td>Jonh Doe</td>
+                    <td>01:00pm - 03:00pm</td>
+                    <td>Room A3</td>
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>Achieving Sustainable Development</td>
+                    <td>Luis Gallop</td>
+                    <td>03:00pm - 04:00pm</td>
+                    <td>Room A1</td>
+                </tr>
+                <tr>
+                    <td>09</td>
+                    <td>Future of Messaging</td>
+                    <td>Jeff Robins</td>
+                    <td>04:00pm - 04:30pm</td>
+                    <td>Room A1</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Data Privacy and Opportunity</td>
+                    <td>Luis Gallop</td>
+                    <td>04:30pm - 05:00pm</td>
+                    <td>Room A1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Add similar tab content divs for day2, day3, day4, day5 -->
+
+    <script>
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab, .tab-content').forEach(el => {
+                    el.classList.remove('active');
+                });
+                tab.classList.add('active');
+                document.getElementById(tab.getAttribute('data-tab')).classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
