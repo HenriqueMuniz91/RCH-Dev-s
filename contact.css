@@ -1,0 +1,336 @@
+/* Geral */
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("./fonts/Futura\ Book\ font.ttf");
+}
+
+div {
+    display: flex;
+}
+
+/* Header contact */
+
+#headerContact {
+    background-image: url("./img/fundoHeader.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#navBar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navLogo img {
+    width: 40px;
+    height: 30px;
+}
+
+.navOptions {
+    display: flex;
+}
+
+.navOptions li a {
+    margin-left: 45px;
+    font-size: calc(0.2em + 0.8vw);
+    color: white;
+}
+
+.navOptions a:hover {
+    color: rgb(227, 38, 130);
+}
+.navTickets {
+    justify-content: center;
+    align-items: center;
+}
+
+.navQuery {
+    font-size: calc(0.2em + 0.8vw);
+    margin-right: calc(0.5em + 0.8vw);
+    color: white;
+}
+
+.btn-get {
+    width: calc(4rem + 4vw);
+    height: calc(2rem + 1vh);
+    background-color: rgb(227, 38, 130);
+    border: none;
+    color: white;
+    font-size: calc(0.2em + 0.8vw);
+    margin: 0;
+}
+
+.titleContact {
+    justify-content: center;
+}
+
+.titleContact h1 {
+    margin-top: 0.7em;
+    font-size: calc(1em + 5vw);
+    color: white;
+}
+
+/* Main contact - form */
+
+#mainContact {
+    display: flex;
+    justify-content: center;
+    padding: 11vw;
+}
+
+.contacts {
+    flex-direction: column;
+    width: 50%;
+    padding: 40px;
+    padding-right: 100px;
+}
+
+.textContact {
+    flex-direction: column;
+}
+
+.textMain h2 {
+    font-size: calc(1em + 3vw);
+    width: auto;
+    margin-bottom: 25px;
+}
+
+.textSecond p {
+    color: rgb(170, 170, 170);
+    font-size: calc(0.8rem + 1vh);
+    margin-bottom: 30px;
+}
+
+.textSecond {
+    border-bottom: 2px solid rgb(215, 215, 215, 0.8);
+}
+
+.contactOptions {
+    margin-top: 30px;
+}
+
+.contactOptions li {
+    margin-bottom: 25px;
+    font-size: calc(0.6rem + 1vh);
+}
+
+.contactOptions li i {
+    color: rgb(227, 38, 130);
+    font-size: calc(0.5rem + 1vh);
+    margin-right: 10px;
+}
+
+/* form */
+
+.contactForm {
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgb(255, 248, 251);
+    width: 50%;
+}
+
+.contactForm h2 {
+    width: auto;
+    text-align: center;
+    font-size: calc(1em + 3vw);
+    margin-bottom: 40px;
+}
+
+
+.formCamps input, textarea, button {
+    width: 100%;
+    height: calc(2rem + 2vh);
+    margin-top: 15px;
+    border: none;
+    color: black;
+    padding: 0;
+}
+
+.formCamps input, textarea::placeholder {
+    opacity: 0.5;
+    text-indent: 15px;
+    font-size: calc(0.3rem + 1vh);
+    font-family: Futura;
+}
+
+.formCamps textarea {
+    height: calc(10rem + 1vh);
+    resize: none;
+}
+
+.formCamps button {
+    margin-top: 20px;
+    background-color: rgb(227, 38, 130);
+    color: white;
+}
+
+/* Rodapé */
+
+.footerContact {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Questions ? */
+
+.questions {
+    flex-direction: column;
+    background-image: url("./img/fundoHeader.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionsText {
+    flex-direction: column;
+    text-align: center;
+}
+
+.questionsText h2 {
+    font-size: calc(1em + 3vw);
+    color: white;
+}
+
+.questionsButton {
+    margin-top: 1.6rem;
+}
+
+.questionsButton button {
+    width: calc(5rem + 6vw);
+    height: calc(1rem + 1.5vw);
+    font-size: calc(0.1em + 0.6vw);
+}
+
+/* Foot Content */
+
+.contactFoot {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.sobreRch {
+    flex-direction: column;
+    width: 30%;
+    padding-right: 30px;
+}
+
+.sobreRch h3 {
+    font-size: calc(0.5em + 1vw);
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sobreRch p {
+    color: rgb(170, 170, 170);
+    font-size: calc(0.5rem + 1vh);
+}
+
+.socialMidia {
+    margin-top: 50px;
+}
+.socialMidia i {
+    margin-right: 30px;
+    font-size: calc(0.7rem + 1vh);
+    color: rgb(170, 170, 170);
+}
+
+.extraLinks {
+    flex-direction: column;
+    width: 30%;
+    max-height: 210px;
+}
+
+.extraLinks h3 {
+    font-size: calc(0.5rem + 1vh);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.two-column-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.two-column-list li {
+    width: calc(50% - 10px);
+    margin-bottom: 15px;
+}
+
+.two-column-list li a {
+    color: rgb(170, 170, 170);
+    font-size: calc(0.5rem + 1vh);
+}
+
+.two-column-list a:hover {
+    color: white;
+}
+
+.subscribe {
+    width: 30%;
+    flex-direction: column;
+}
+
+.subscribe h3 {
+    font-size: calc(0.5rem + 1vh);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.subscribe input {
+    width: 70%;
+    height: calc(1rem + 2vw);
+    border: none;
+    color: black;
+    padding: 0;
+    background-color: rgb(50, 50, 50);
+    margin-bottom: 10px;
+}
+
+.subscribe input::placeholder {
+    opacity: 0.5;
+    text-indent: 15px;
+    font-size: calc(0.3rem + 1vh);
+    font-family: Futura;
+}
+
+.subscribe button {
+    background-color: rgb(227, 38, 130);
+    width: calc(2rem + 6vw);
+    height: calc(1rem + 1.5vw);
+    font-size: calc(0.1em + 0.6vw);
+    color: white;
+}
+
+/* Copy */
+
+.copy {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding-bottom: 30px;
+}
+
+.copy h3 {
+    color: rgb(170, 170, 170);
+    margin-bottom: 10px;
+}
+
+.copy h3 strong {
+    color: white;
+}
+
+.copy a {
+    color: rgb(170, 170, 170);
+}
