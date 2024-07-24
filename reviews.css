@@ -1,0 +1,388 @@
+/* Geral */
+@font-face {
+  font-family: "futura";
+  src: url("./fonts/Futura\ Book\ font.ttf");
+}
+
+* {
+  font-family: "futura";
+  margin: 0;
+}
+
+body {
+  background-color: rgb(249, 249, 249);
+  display: block;
+}
+
+/***** header *****/
+.box_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./img/background.png);
+  background-size: cover;
+  background-position: top;
+  width: auto;
+  height: 80vh;
+}
+
+.container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+.tittle-header {
+  color: white;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.logo {
+  width: 3rem;
+  height: 2rem;
+  background-size: cover;
+}
+
+/* navbar */
+.nav_options {
+  display: flex;
+  cursor: pointer;
+  margin-left: 9rem;
+}
+
+.nav_options li {
+  padding-left: 50px;
+  list-style: none;
+  color: white;
+}
+
+.nav_options li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_options a:hover {
+  color: rgb(227, 38, 130);
+}
+
+/* Pesquisa */
+.pesquisar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pesquisar li {
+  color: white;
+  list-style: none;
+}
+
+/* ícones pesquisa */
+.lupa {
+  color: white;
+  width: 25px;
+  padding: 25px;
+  background-size: cover;
+  background-clip: text;
+  background-color: white;
+}
+
+.seta {
+  width: 16px;
+  padding: 16px;
+}
+/* Título header */
+.box_tittle {
+  margin-top: 10rem;
+  text-align: center;
+  align-items: center;
+}
+
+.subtittle {
+  color: white;
+  padding-top: 30px;
+}
+
+/* Botão de pesquisa*/
+.get_pesquisa {
+  width: 150px;
+  height: 35px;
+  background-color: #ff007f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  border: 1px none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+/****/
+/*****Main******/
+.main {
+  background-color: rgb(249, 249, 249);
+  display: flex block;
+  grid-template: "card1 card2 card3 card4 card5 card6 card7 card8 card9";
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rem;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+  font-size: x-large;
+  line-height: 40px;
+}
+
+.tittle-center {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  line-height: 3.5rem;
+  color: rgb(36, 36, 36);
+}
+
+#subtittle-box {
+  color: rgb(36, 36, 36);
+}
+
+.lead {
+  color: grey;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+/* Cards */
+.card-container {
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: start;
+  column-gap: 25px;
+  row-gap: 25px;
+  margin-top: 12rem;
+}
+
+.card-container2 {
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: start;
+  padding: 180px;
+  row-gap: 20px;
+}
+.card {
+  width: 450px;
+  height: 420px;
+  border: 1px none;
+  box-sizing: border-box;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-color: white;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 2rem;
+  color: rgb(36, 36, 36);
+  font-weight: 900;
+}
+
+.card-text {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: silver;
+}
+
+.card-subtittle {
+  color: darkgray;
+  font-size: 0.9rem;
+}
+
+.data {
+  color: darkgrey;
+  margin-top: 1rem;
+}
+
+/* Ícone card */
+.aspas {
+  width: 35px;
+  padding: 35px;
+}
+
+/****footer****/
+/*Box*/
+.footer {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+}
+
+.footer_itens {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  gap: 6rem;
+}
+
+/* Descrição */
+.box-footer {
+  text-align: justify;
+  display: flex;
+}
+
+#logo_fotter {
+  padding-top: 1rem;
+}
+
+.text-footer {
+  color: rgb(160, 160, 160);
+  font-size: 1rem;
+  width: 19rem;
+  padding-top: 4.9rem;
+}
+
+.box_descricaofinal {
+  color: white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+}
+
+/* ícones */
+.rede-sociais {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  padding-top: 2.4rem;
+}
+
+.icon-rede {
+  width: 20px;
+  padding-top: 1rem;
+}
+
+/* Extra links */
+
+.extra {
+  padding-bottom: 3.5rem;
+  padding-top: 2.6rem;
+  font-size: 1.2rem;
+  color: white;
+  line-height: 1.7rem;
+}
+
+.extra h2 {
+  font-size: 1rem;
+  padding-top: 1rem;
+  color: rgb(161, 160, 160);
+  cursor: pointer;
+}
+
+.extra a {
+  color: rgb(161, 160, 160);
+  text-decoration: none;
+}
+
+.extra a:hover {
+  color: white;
+}
+
+/* Contato */
+.contacty {
+  color: rgb(161, 160, 160);
+  font-size: 1rem;
+  padding-top: 9rem;
+  line-height: 1.7rem;
+}
+
+.contacty h2 {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.contacty h2 a {
+  color: rgb(161, 160, 160);
+  text-decoration: none;
+}
+
+.contacty a:hover {
+  color: white;
+}
+/* Subscribe */
+.tittle_subs {
+  color: #ffff;
+  padding-bottom: 5.2rem;
+  font-size: 1.3rem;
+}
+
+.button {
+  background-color: #ff007f;
+  border: 1px none;
+  padding: 18px 30px 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#in {
+  padding: 8px 10rem 8px 4px;
+  height: 2rem;
+  background-color: #4f4f4f;
+  opacity: 40%;
+  border: 0;
+  font-size: 14.9px;
+}
+
+#in::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+
+/* Descrição final */
+.descricao_final {
+  color: #c0c0c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.negrito {
+  color: white;
+}
