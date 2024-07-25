@@ -42,10 +42,20 @@
 #headerLinks a{
     padding-left: 60px;
     list-style: none;
-    color: white;    
+    text-decoration: none;
+    color: white;
 }
 
-#lviv{
+#headerLinks a:hover{
+    color: #D9285E;
+}
+
+#logoText{
+    color: white;
+}
+
+#logoText img{
+    width: 50px;
     color: white;
 }
 

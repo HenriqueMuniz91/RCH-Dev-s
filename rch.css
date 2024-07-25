@@ -45,7 +45,12 @@
 #headerLinks a{
     padding-left: 60px;
     list-style: none;
+    text-decoration: none;
     color: white;    
+}
+
+#headerLinks a:hover{
+    color: #DD4CD0;
 }
 
 #logoText{
