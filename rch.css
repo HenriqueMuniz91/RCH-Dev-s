@@ -327,6 +327,11 @@
     height: 400px;
 }
 
+.number img{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
 .supported{
     background-image: url(./img/supportedBackground.png);
     background-size: 1600px;
