@@ -328,6 +328,8 @@
 }
 
 .supported{
+    background-image: url(./img/supportedBackground.png);
+    background-size: 1600px;
     background-color: #F8E8DA;
     height: 900px;
     width: 100%;
