@@ -235,7 +235,9 @@
 
 #discoverMore{
     border-radius: 10px;
-    background-color: #F0AD1C;
+    background-color: #45893B;
+    border-radius: 10px;
+    border: 0px;
     font-size: 20px;
     font-weight: bold;
     color: #fff8fb;
@@ -481,7 +483,8 @@
     color: #fff8fb;
     margin-top: 30px;
     border: 0;
-    height: 30px;
+    border-radius: 10px;
+    height: 40px;
     width: 200px;
     font-size: large;
     font-weight: bold;
@@ -492,34 +495,6 @@
     color: #fff8fb;
     font-size: large;
     font-weight: bold;
-}
-
-.startNow{
-    height: 450px;
-    background-image: url("./img/StartNow01");
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-#startNowText{
-    color: #FFFF;
-    font-size: 50px;
-    max-width: 600px;
-    font-weight: bold;
-}
-
-#startNowButton{
-    color: #FFFF;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: #e32682;
-    width: 130px;
-    height: 40px;
-    border: none;
-    margin-top: 40px;
 }
 
 #our{
